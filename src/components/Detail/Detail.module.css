@@ -1,0 +1,59 @@
+.divDetail{
+    background-color: rgb(104, 104, 104); 
+}
+
+.divDetail h1 {
+    font-size: 65px;
+    margin: 0px;
+    color: rgb(3, 3, 46);
+}
+
+.divDetail button{
+    display: flex;
+    background-color: rgb(62, 62, 150);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.content h3 {
+    font-size: 35px;
+    flex-direction: row;
+    color: rgb(3, 3, 46);
+}
+
+.content li{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.content {
+    display: flex;
+}
+
+.content ul {
+    margin-top: 65px;
+    margin-left: 150px;
+}
+
+.image {
+    width: 450px; /* cambia el ancho de las imagnes */
+    border-radius: 50%; /* con un borde-radius al 50% hace que las imagenes se vean de forma circular */
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 75px;
+    padding: 0px;
+    box-shadow: 35px 20px 20px rgb(41, 41, 41);
+    transition: 2s;
+}
+
+.image:hover {
+    width: 500px; /* cambia el ancho de las imagnes */
+    display: flex;
+    box-shadow: 35px 20px 0px rgb(41, 41, 41);
+    border-radius: 25%;
+}
+

@@ -1,0 +1,8 @@
+.divError {
+    background-color: white;
+}
+
+.divError h1 {
+    height: 400px;
+    color: gray;
+}

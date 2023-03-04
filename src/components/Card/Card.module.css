@@ -1,0 +1,73 @@
+.container{
+    border: 1px solid grey; /* genera un borde solido en el elemento */
+    background-color: lightgray; /* le da color al fondo del elemento */
+    border-radius: 10px;  /* le hace curvas en las esquinas del elemento */
+    width: 250px; /* cambia el ancho de la carta */ 
+    padding: 10px; /* le pone relleno al rededor de la carta */
+    box-shadow: 0 0 10px white; /* le pone un sombra por fuera de los bordes del elemento */ 
+    /* height: 500px; */
+}
+
+.container h2 {
+  font-size: 20px;
+
+}
+
+.image{
+    width: 250px; /* cambia el ancho de las imagnes */
+    border-radius: 50%; /* con un borde-radius al 50% hace que las imagenes se vean de forma circular */
+    transition: .3s;
+}
+
+.image:hover {
+    width: 250px; /* cambia el ancho de las imagnes */
+    border-radius: 5px;
+}
+
+
+.divButton{
+    display: flex;  /* con el display: flex; hace que pueda mover el elemento */
+    justify-content: flex-end; /* indico en que lugar quiero que este el elemento, en este caso en el final para ubicar la "x" de cierre a la derecha */
+}
+
+.divButton button{
+    border-radius: 5px; /* le hago unos bordes curbos al boton de cierre*/
+    border: none; /* le saco el borde */
+    background-color: lightgray; /* lo pinto de lightskyblue*/
+    font-size: 20px; /* le cambio el tamaño con font-size*/
+    color: black; /* y le cambio el color de letra que en este caso seria la "x" del boton de cierre */
+    cursor: pointer;
+    transition: .4s;
+}
+
+.divButton:hover button{
+    border: 2px;
+    background-color: rgb(184, 179, 179);
+}
+
+
+
+/* .listItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 15vh;
+  background-color: #fcff4f;
+  padding: 1em;
+  margin: 5px;
+  font-weight: 500;
+  border-radius: 5%;
+}
+.listItem:hover {
+  background-color: #262623c9;
+  color: beige;
+}
+
+.listItem img {
+  width: 50%;
+  object-fit: cover;
+  margin: 15px;
+}
+ */

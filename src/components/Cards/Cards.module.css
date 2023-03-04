@@ -1,0 +1,26 @@
+.divCards {
+    display: flex;
+    flex-direction: row; /* se especifica en que direccion van a estar los elementos */
+    flex-wrap: wrap; /* hace que las cartas se ordenen a lo largo de la pantalla y no a lo ancho, teniendo que scrollear para abajo */
+    align-items: center;  /* se especifica donde se quiere color el elemento dentro del bloque del mismo */
+    justify-content: center;  /* define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor. */ 
+    padding: none; 
+    gap: 10px; /* Es el tamaño que va a ver entre cartas */
+}
+
+
+
+
+/* .listItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 15vh;
+    background-color: #fcff4f;
+    padding: 1em;
+    margin: 5px;
+    font-weight: 500;
+    border-radius: 5%;
+  } */

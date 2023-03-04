@@ -1,0 +1,27 @@
+.divSearchBar {
+    display: flex;
+    justify-content: end;
+}
+
+.divSearchBar input {
+    display: flex;
+    border-radius: 10px;
+    height: 23px;
+    background-color: white;
+    box-shadow: 0 0 5px white;
+}
+
+.divSearchBar button {
+    display: flex;
+    border-radius: 7px;
+    height: 23px;
+    margin-left: 2px;
+    background-color: white;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.divSearchBar:hover button {
+    background-color: rgb(145, 143, 143);
+}
